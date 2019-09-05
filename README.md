@@ -3,7 +3,7 @@
 ## Setting Up the Environment
 First let's get Unity ready to deploy Google Cardboard VR for our phones. Once you have gone through the same steps you used to deploy to your device from Assignment one follow the corresponding quickstart guide for your platform
 - [Android](https://developers.google.com/vr/develop/unity/get-started-android)
-- [IOS]()
+- [IOS](https://developers.google.com/vr/develop/unity/get-started-ios)
 
 Unity supports Google Cardboard and a few other headsets out of the box, it will automatically calculate the rotation based on the accelerometer in your device and render two camera views of the same scene. Try adding some elements to the scene so it's easier to orient yourself in VR.
 
