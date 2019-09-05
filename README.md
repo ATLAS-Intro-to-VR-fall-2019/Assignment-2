@@ -5,7 +5,7 @@ First let's get Unity ready to deploy Google Cardboard VR for our phones. Once y
 - [Android](https://developers.google.com/vr/develop/unity/get-started-android)
 - [IOS](https://developers.google.com/vr/develop/unity/get-started-ios)
 
-Unity supports Google Cardboard and a few other headsets out of the box, it will automatically calculate the rotation based on the accelerometer in your device and render two camera views of the same scene. Try adding some elements to the scene so it's easier to orient yourself in VR.
+Unity supports Google Cardboard and a few other headsets out of the box, it will automatically calculate the rotation based on the accelerometer in your device and render two camera views of the same scene. Try adding some elements to the SampleScene scene created when we start eh project so that it's easier to orient yourself in VR.
 
 ## Adding Some Interaction
 First let's make it so we can move around in VR. A simple one would be, when we touch the screen, move forward in the direction we are touching. To accomplish this we must apply the *Forward Vector* of the camera to it's *transform*. Let's create a new script called *CameraMovement* and add it to the Main Camera in our scene. The inside of your CameraMovement class should look like this
